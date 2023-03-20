@@ -1,4 +1,4 @@
-# Sam K Dev
+# Nuxt Turborepo Starter
 
 Nuxt with truborepo setup with opinionated setup
 
