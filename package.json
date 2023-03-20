@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-turborepo-starter",
+  "description": "Nuxt Turborepo Starter with opinionated setup",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "nuxt-turborepo-starter",
+  "workspaces": [
+    "apps/*",
+    "docs",
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "eslint",
+    "format": "prettier --write \"**/*.{ts,tsx,vue,md}\""
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@nuxt-turborepo-starter/prettier-config": "^1.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "turbo": "latest"
+  },
+  "lint-staged": {
+    "apps/**/*.{.js,ts,vue,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "packages/**/*.{.js,ts,vue,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "npm@9.5.0"
+}

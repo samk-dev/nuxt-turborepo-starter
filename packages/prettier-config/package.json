@@ -1,0 +1,8 @@
+{
+  "name": "@nuxt-turborepo-starter/prettier-config",
+  "version": "1.0.0",
+  "main": "./prettier-config.json",
+  "devDependencies": {
+    "prettier": "^2.8.5"
+  }
+}

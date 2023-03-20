@@ -1,0 +1,42 @@
+# Turbo
+.turbo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+apps/**/.output
+apps/**/.nuxt
+apps/**/dist
+apps/**/public
+apps/**/node_modules
+
+# Packages
+packages/**/.output
+packages/**/.nuxt
+packages/**/dist
+packages/**/public
+packages/**/node_modules
+
+# Mac stuff
+**/**.DS_Store
+**/*.DS_Store
+
+# Windows stuff
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

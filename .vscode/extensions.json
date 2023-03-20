@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "codezombiech.gitignore",
+    "csstools.postcss",
+    "esbenp.prettier-vscode",
+    "pmneo.tsimporter",
+    "q.typescript-mono-repo-import-helper",
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin"
+  ]
+}
